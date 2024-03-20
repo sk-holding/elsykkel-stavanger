@@ -3,8 +3,9 @@ import Products from "@/components/vare-sykler/Products";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Våre sykler - ",
-  description: "",
+  title: "Våre sykler - Elsykkel Stavanger",
+  description:
+    "Kajakk & Fritid har noe for en hver. Sjekk ut vårt enorme sortement og finn din neste elsykkel i dag.",
 };
 
 const Page = () => {
@@ -13,9 +14,8 @@ const Page = () => {
       <div className="title-block">
         <h1>Våre sykler</h1>
         <h2>
-          Utforsk vårt mangfoldige utvalg, inkludert våre førsteklasses
-          egenproduserte sykler fra Momas, Fosna og Avelo - flere ganger kåret
-          til best i test.
+          Kajakk & Fritid har noe for en hver. Sjekk ut vårt enorme sortement og
+          finn din neste elsykkel i dag.
         </h2>
       </div>
       <Products />

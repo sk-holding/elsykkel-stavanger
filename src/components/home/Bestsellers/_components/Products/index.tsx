@@ -2,10 +2,10 @@ import { Bike } from "@/types";
 import { sanityFetch } from "@/functions/getData";
 import styles from "./index.module.scss";
 import ProductCard from "@/components/shared/ProductCard";
-import { featuredBikeQuery } from "@/lib/queries";
+import { featuredBikesQuery } from "@/lib/queries";
 
 const Products = async () => {
-  const query = featuredBikeQuery;
+  const query = featuredBikesQuery;
   const data = await sanityFetch(query);
 
   return (
@@ -18,6 +18,7 @@ const Products = async () => {
             image={bike.image}
             description={bike.description}
             kf_url={bike.kf_url}
+            price={bike.price}
           />
         );
       })}

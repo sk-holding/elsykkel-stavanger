@@ -37,7 +37,7 @@ const Kontakt = () => {
           <div className={styles.usp}>
             <img src="/icons/house.svg" alt="house icon" />
             <a target="_blank" href={location.butikk}>
-              Dikeveien 21B, 1661 Rolvsøy
+              Forusskogen 1, 4033 Stavanger
             </a>
           </div>
           <p>

@@ -4,7 +4,8 @@ export interface Bike {
     title: string;
     image: string;
     description: string;
-    kf_url: string
+    kf_url: string;
+    price: number
 }
 
 export interface Article {

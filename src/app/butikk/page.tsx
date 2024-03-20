@@ -2,8 +2,9 @@ import { Metadata } from "next";
 import Butikker from "@/components/butikk/Butikker";
 
 export const metadata: Metadata = {
-  title: "Butikk - ",
-  description: "",
+  title: "Butikk - Elsykkel Stavanger",
+  description:
+    "Opplev bekvemmeligheten med elsykler hos Kajakk & Fritid Stavanger. Utforsk vårt utvalg og finn din perfekte turkamerat i dag!",
 };
 
 const Page = () => {
@@ -12,9 +13,8 @@ const Page = () => {
       <div className="title-block">
         <h1>Våre butikker</h1>
         <h2>
-          Vår flotte nye butikk i Østfoldhallene åpnet dørene i 2024. I
-          flunkende nye lokaler står vi nå klare til å ta imot deg for en
-          trivelig elsykkelprat.
+          Utforsk toppmoderne elsykler hos Kajakk & Fritid Stavanger. Opplev
+          enkel og miljøvennlig transport med vår ekspertveiledning.
         </h2>
       </div>
       <Butikker />

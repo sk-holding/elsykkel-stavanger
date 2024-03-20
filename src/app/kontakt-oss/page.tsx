@@ -3,8 +3,9 @@ import { Metadata } from "next";
 import Kontakt from "@/components/kontakt-oss/Kontakt";
 
 export const metadata: Metadata = {
-  title: "Kontakt - ",
-  description: "",
+  title: "Kontakt - Elsykkel Stavanger",
+  description:
+    "Trenger du hjelp eller har spørsmål om elsykler? Kontakt oss! Vår dedikerte kundeservice står klar til å hjelpe deg med alt du trenger angående elsykkel. Ta kontakt med oss via telefon eller e-post. Vi ser frem til å hjelpe deg med din elsykkelopplevelse!",
 };
 
 const Page = () => {
